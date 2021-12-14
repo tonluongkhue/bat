@@ -1,0 +1,999 @@
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1046px;
+    }
+}
+
+/* ipad pro */
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+        margin: 0px auto;
+    }
+
+    .section {
+        height: 60vh;
+    }
+
+    .section1{
+        height: initial;
+    }
+    
+    .section1 .lSSlideOuter {
+        height: initial;
+
+    }
+
+    .banner_img img {
+        object-fit: cover;
+        margin-bottom: -4px;
+    }
+
+    .banner_img {
+        height: 100%;
+    }
+
+    .section2_title {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .header_nav {
+        width: 60%;
+    }
+
+    /* end section 2 */
+    .item_img {
+        margin: 0;
+    }
+
+    .section3_header-title {
+        width: 40%;
+        padding-right: 14px;
+    }
+
+    .section3_header-title h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    /* chiết xuất */
+    .cx_details-info .title h3{
+        margin-bottom: 10px;
+    }
+    .cx_details-info .nav_btn{
+        margin-bottom: 10px;
+        
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+    .section1 .lSSlideOuter {
+        height: unset;
+    }
+
+    .section {
+        height: 60vh;
+    }
+
+    header {
+        padding: 4px 30px;
+    }
+
+    
+
+    .header_nav {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .search_input.active {
+        width: 150px;
+    }
+
+    .search_input input {
+        font-size: 12px;
+    }
+    .item_img {
+        height: 70%;
+    }
+
+   
+    .section1 .lSAction>.lSPrev{
+        left: 0;
+    }
+    .section1 .lSAction>.lSNext{
+        right: 0;
+        text-align: right;
+    }
+    .section3 .lSAction>.lSPrev,
+    .section9 .lSAction>.lSPrev,
+    .section5 .lSAction>.lSPrev{
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7); 
+        text-align: center;
+    }
+    
+    .section3 .lSAction>.lSNext,
+    .section9 .lSAction>.lSNext,
+    .section5 .lSAction>.lSNext{
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7); 
+        text-align: center;
+
+    }
+
+    /* end header */
+    /* section 2 */
+
+    /* end section 2 */
+
+    /* subpage */
+    .subpage_title h3{
+        font-size: 20px;
+    }
+    /* chiết xuất */
+    .cx_details.chietxuat_details{
+        flex-direction: column;
+    }
+    .chietxuat_details .cx_details-img{
+        width: 100%;
+    }
+    .chietxuat_details .cx_details-info{
+        width: 100%;
+        padding: 0;
+    }
+    /* sàn giao dịch */
+    .cx_details.sgd_details{
+        flex-direction: column;
+    }
+    .sgd_details .cx_details-info{
+        width: 100%;
+        padding: 0;
+    }
+    .sgd_details .cx_details-img{
+        width: 100%;
+
+    }
+    .ft_info h2 b{
+        font-size: 30px;
+    }
+    .ft_info h2 {
+        font-size: 24px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .container {
+        max-width: 720px;
+        margin: 0px auto;
+    }
+
+    .section2_title {
+        padding: 0;
+        text-align: justify;
+    }
+
+    /* end section 2 */
+    .item_img {
+        margin: 0;
+    }
+
+    .section3_header-title {
+        width: 40%;
+        padding-right: 14px;
+    }
+
+    .section3_header-title h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    /*  section 5 */
+    .section5_header-title {
+        width: 40%;
+    }
+
+    .section5_header-text {
+        width: 60%;
+        padding: 0;
+    }
+
+    /*  section 6 */
+    .section6 .title h2 {
+        font-size: 22px;
+    }
+
+    .section6_item-title {
+        padding: 0;
+    }
+
+    .section6_item-title h3 {
+        font-size: 12px;
+    }
+
+    /* section 7 */
+    .section7_header h2 {
+        font-size: 24px;
+    }
+
+    .section7_item a {
+        font-size: 14px;
+    }
+
+    /* section 8 */
+    .section8_header h2 {
+        font-size: 24px;
+    }
+
+    .section8_item a {
+        font-size: 14px;
+    }
+
+    /* section 9 */
+    .section9_header h2 {
+        font-size: 24px;
+    }
+
+    .section9_item-info p {
+        font-size: 14px;
+    }
+
+    /* section 10 */
+    .section10_item {
+        width: calc((100% - 12px) / 2);
+    }
+
+    .section10_item-title {
+        padding: 0 12px;
+    }
+
+    .section10_item-title span {
+        font-size: 12px;
+    }
+
+    .section10_item-title h3 {
+        margin: 8px 0;
+        font-size: 14px;
+    }
+
+    .section10_item-title p {
+        font-size: 12px;
+    }
+
+    .section10_item-child-img {
+        width: 40%;
+    }
+
+    .section10_item-child-title {
+        width: 60%;
+        padding: 0 0 0 12px;
+    }
+
+    .section10_item-child-title h2 {
+        font-size: 12px;
+    }
+
+    /* section 11 */
+    .content_item {
+        min-height: 280px;
+    }
+
+    .content_item a {
+        padding: 0 14px;
+    }
+
+    /* footer */
+    .footer_form {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .footer_form h3 {
+        padding: 0;
+    }
+    .ft_info{}
+
+    .footer_info {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .footer_info h2 {
+        font-size: 24px;
+        font-size: 1.3;
+    }
+
+    .footer_info h2 b {
+        font-size: 30px;
+    }
+    .ft_info-item.social {
+        margin-top: 10px;
+    }
+
+    /* bất động sản */
+    .bds_profile .list_profile-item-l {
+        width: calc((100% - 20px) / 2);
+    }
+
+    /* cảng cạn */
+    .cangcan_profile .list_profile-item-l {
+        width: calc((100% - 20px) / 2);
+    }
+    /* chiết xuất */
+    .chietxuat_details .list_profile-item{
+        width: calc((100% - 60px) / 4);
+    }
+    .list_profile-item-link {
+        min-height: 230px;
+    }
+    .navigation_info .item{
+        width: calc((100% - 60px) / 4);
+    }
+     /* sàn giao dịch */
+     .sangd_profile .list_profile-item-l{
+        width: calc((100% - 20px) / 2);
+    }
+    .sgd_details .list_profile-item{
+        width: calc((100% - 60px) / 4);
+    }
+    /* thư viện */
+    .thuvien_profile .list_profile-item-l{
+        width: calc((100% - 20px) / 2);
+    }
+    /* tin tuc */
+    .tintuc_col{
+        min-height: 400px;
+    }
+    .tintuc_item-s1-3{
+        min-height: 120px;
+    }
+    .tintuc_col-3 {
+        min-height: 280px;
+    }
+    /* liên hệ */
+    .lienhe_detail .ft_info-item{
+        margin-bottom: 8px;
+    }
+    .lienhe_detail .ft_info, .lienhe_detail .footer_form{
+        width: calc((100% - 40px) / 2);
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* none */
+    .list_social,
+    .menu_run {
+        display: none;
+    }
+
+    /* end none */
+    header {
+        padding: 10px 10px;
+        justify-content: space-between;
+    }
+
+    .header_img {
+        width: 20%;
+    }
+
+    .header_nav {
+        width: 20%;
+        justify-content: flex-end;
+    }
+
+    .header_nav-phone,
+    .header_nav-search,
+    .header_nav-lang,
+    .header_nav-menu span {
+        display: none;
+    }
+
+    header.header_fix {
+        padding: 10px 10px;
+        height: 70px;
+    }
+
+    .header_nav-menu i {
+        width: 30px;
+        font-size: 16px;
+        height: 30px;
+    }
+
+    .banner_img img {
+        height: initial;
+        object-fit: initial;
+        margin-bottom: -4px;
+    }
+
+    .banner_img {
+        height: initial;
+    }
+
+    /* menu */
+    .navbar_show {
+        display: flex;
+        align-items: center;
+        background-color: #0000009e;
+    }
+
+    .navbar {
+        padding: 20px 20px;
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+
+    .navbar_title {
+        width: 100%;
+    }
+
+    .navbar_list li {
+        margin-bottom: 18px;
+        font-size: 14px;
+    }
+
+    .navbar_list-child li {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .banner_img img {
+        height: initial;
+        object-fit: initial;
+        margin-bottom: -4px;
+    }
+
+    .banner_img {
+        height: initial;
+    }
+
+
+    /* navigation */
+    #MenuWrapper {
+        display: none;
+    }
+
+    /* end header */
+    .section {
+        height: unset;
+    }
+
+    .section1 .lSSlideOuter {
+        /* height: 100%; */
+    }
+
+    .section1 .fp-tableCell {
+        height: 100%;
+    }
+
+    /* end section 1 */
+    .section2 {
+        padding-top: 10px;
+    }
+
+    .section2_title {
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .section2_list {
+        flex-direction: column;
+    }
+
+    .section2_item {
+        margin: 20px 0;
+    }
+
+    /* end section 2 */
+    .section3 {
+        padding: 20px 0;
+    }
+
+    .section3_header {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .section3_header-title {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .section3_header-title h2 {
+        margin-bottom: 14px;
+        font-size: 20px;
+    }
+
+    .section3_header-text {
+        width: 100%;
+    }
+
+    .section3_header-text p {
+        font-size: 14px;
+    }
+
+    /* end section3 */
+    .section4 {
+        padding: 20px 0;
+    }
+
+    .section4_info {
+        flex-direction: column;
+    }
+
+    .section4_title {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+
+    .section4_title h2 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .section4_title p {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .section4_title .btn_xct {
+        margin: 0;
+    }
+
+    .section4_img {
+        width: 100%;
+    }
+
+    /* section 5 */
+    .section5 {
+        padding: 20px 0;
+    }
+
+    .section5_header {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    .section5_header-title,
+    .section5_header-text {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .section5_header-title h2 {
+        margin-bottom: 14px;
+        font-size: 24px;
+    }
+
+    .section5_header-text {
+        padding: 0;
+    }
+
+    .section5_header-text p {
+        font-size: 14px;
+    }
+
+    /* section 6 */
+    .section6 {
+        padding: 20px 0;
+    }
+
+    .section6_list {
+        flex-direction: column;
+    }
+
+    .section6_item {
+        width: 100%;
+    }
+
+    .section6 .title h2 {
+        font-size: 24px;
+    }
+
+    .section6_item-title {
+        padding: 0 10px;
+    }
+
+    /* section 7 */
+    .section7 {
+        padding: 20px 0;
+    }
+
+    .section7_header h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .section7_list {
+        flex-direction: column;
+    }
+
+    .section7_item {
+        width: 100%;
+    }
+
+    .section7_item a {
+        font-size: 14px;
+    }
+
+    /* section 8 */
+    .section8 {
+        padding: 20px 0;
+    }
+
+    .section8_header h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .section8_list {
+        flex-direction: column;
+    }
+
+    .section8_item {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    /* section 9 */
+    .section9 {
+        padding: 20px 0;
+    }
+
+    .section9_header {
+        margin-bottom: 20px;
+    }
+
+    .section9_header h2 {
+        font-size: 24px;
+    }
+
+    /* section 10 */
+    .section10 {
+        padding: 20px 0;
+    }
+
+    .section10_header {
+        margin-bottom: 20px;
+    }
+
+    .section10_header h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .section10_list {
+        flex-direction: column;
+    }
+
+    .section10_item {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .section10_item-child-img {
+        width: 40%;
+    }
+
+    .section10_item-child-title {
+        width: 60%;
+        padding: 0 14px;
+    }
+
+    .section10_item-child-title h2 {
+        font-size: 12px;
+    }
+
+    /* section 11 */
+    .section11 {
+        padding: 20px 0;
+    }
+
+    .tab-item {
+        padding: 6px 18px;
+    }
+
+    .section11_content-item {
+        flex-direction: column;
+    }
+
+    .content_item {
+        width: 100%;
+        margin-bottom: 14px;
+        padding: 10px;
+    }
+
+    .content_item div {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .footer_form,
+    .footer_info {
+        width: 100%;
+    }
+
+    .footer_form {
+        margin-bottom: 14px;
+    }
+
+    .footer_form h3 {
+        padding: 0;
+        margin-bottom: 14px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .footer_form button {
+        font-size: 16px;
+    }
+
+    .ft_info{
+        width: 100%;
+    }
+    .ft_info-item.social{
+        margin-top: 10px;
+    }
+
+    .footer_info h2 {
+        font-size: 24px;
+    }
+
+    .footer_info h2 b {
+        font-size: 28px;
+    }
+
+    .footer_info-item i {
+        padding: 0 14px 0 0;
+    }
+
+    .social i {
+        padding: 0;
+    }
+
+    /* footer child */
+    .footer_child-info-list {
+        flex-direction: column-reverse;
+    }
+
+    .footer_child-info {
+        padding: 20px 0 10px 0;
+    }
+
+    .footer_info-item-child {
+        width: 50%;
+    }
+
+    .footer_info-item-child a {
+        font-size: 14px;
+    }
+
+    .footer_child-title-list {
+        flex-direction: column;
+    }
+
+    .copyright {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer_child-title-list .social {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    /* navigation */
+    .navigation {
+        margin-bottom: 30px;
+    }
+
+    .navigation_list {
+        overflow-x: scroll;
+        justify-content: initial;
+    }
+
+    .footer_info-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navigation_item div {
+        width: 150px;
+    }
+
+    /* header banner */
+    .banber {
+        height: 150px;
+    }
+
+    .banber span {
+        font-size: 20px;
+        bottom: 16px;
+        text-align: center;
+    }
+
+    /* baner child */
+    .banner_child span {
+        font-size: 20px;
+        bottom: 14px;
+        text-align: center;
+    }
+    /* title */
+    .title span{
+        font-size: 16px;
+    }
+    .title h3 {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+
+    /* bất động sản */
+    .bds_profile .list_profile-item-l {
+        width: 100%;
+    }
+
+    /* cảng cạn */
+    .cangcan_profile .list_profile-item-l {
+        width: 100%;
+    }
+
+    /* gioi thieu chung */
+    .gt_info-item .section2_title {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .gt_info-item .section2_title h2{
+        font-size: 20px;
+    }
+
+    .gt_info-item .section2_list {
+        margin-bottom: 10px;
+    }
+
+    .gt_info-item .section2_item-full {
+        width: 100%;
+        height: initial;
+        margin-bottom: 20px;
+    }
+
+    .navbar_img {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .navbar_img-col {
+        width: 100%;
+    }
+
+    /* gioi thieu hội đồng quản trị  */
+
+    .gt_hd-item {
+        flex-direction: column;
+    }
+
+    .gt_hd-item-info {
+        padding: 10px;
+    }
+
+    /* nông nghiệP công nghệ cao */
+    .nn_info-item {
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .navigation_info .item {
+        width: calc((100% - 10px) / 2);
+    }
+
+    /* dịch vụ nông lâm */
+    .dvnl_info-item {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .dvnl_item {
+        width: 100%;
+    }
+
+    .dvnl_item-child {
+        width: 100%;
+    }
+
+    /* nut slider dich vụ nông lâm*/
+
+    .dvnl_other-item .lSAction>.lSPrev {
+        top: 50%;
+        transform: translateY(100%);
+        left: 0;
+    }
+
+    .dvnl_other-item .lSAction>.lSNext {
+        top: 50%;
+        transform: translateY(100%);
+        right: 0;
+    }
+    /* chiết xuất */
+    .chietxuat_details .list_profile-item{
+        width: calc((100% - 20px) / 2);
+    }
+    .list_profile-item-link {
+        min-height: 220px;
+    }
+    /* nông lâm */
+    .nav_text-banner{
+        flex-direction: column;
+    }
+    .nav_text-banner-img{
+        width: 100%;
+    }
+    /* sàn giao dịch */
+    .sangd_profile .list_profile-item-l{
+        width: 100%;
+    }
+    .sgd_details .list_profile-item{
+        width: calc((100% - 20px) / 2);
+    }
+    /* thư viện */
+    .thuvien_profile .list_profile-item-l{
+        width: 100%;
+    }
+    .thuvien_profile td{
+        padding: 10px;
+    }
+    .thuvien_download button{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .thuvien_profile .thuvien_download button span{
+        margin-top: 4px;
+    }
+    /* tin tức */
+    .tintuc_row{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .tintuc_col{
+        width: 100%;
+        margin-bottom: 14px;
+        min-height: 400px;
+    }
+    .tintuc_item-s1-3{
+        min-height: 120px;
+
+    }
+    .tintuc_col-3{
+        width: 100%;
+        margin-bottom: 14px;
+
+    }
+    /* liên hệ */
+    .lienhe_detail{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .lienhe_detail .footer_form,
+    .lienhe_detail .ft_info{
+        width: 100%;
+    }
+}
